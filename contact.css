@@ -1,0 +1,107 @@
+body{
+    background-image: url("IMG_20250928_110455_edit_1031302137663774.jpg");
+    background-size: cover;
+    font-family: "Brush Script MT", cursive;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@media (max-width: 1024px){
+    body{
+        background-image: url("CamScanner\ 2025-09-28\ 10.22.jpg");
+    }
+}
+@media (max-width: 768px){
+    body{
+        background-image: url("IMG_20250928_110455_edit_1031302137663774.jpg");
+    }
+}
+
+header{
+    font-family: "Brush Script MT", cursive;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+header ul li{
+    margin: 0 15px;
+    font-size: larger;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input{ 
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+input:hover{
+    background-color: #F0E9D6;
+}
+
+textarea{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+textarea:hover{
+    background-color:#F0E9D6;
+}
+
+button{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#F0E9D6 ;
+}
+
+
+
+section{
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+}

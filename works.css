@@ -1,0 +1,49 @@
+body{
+    background-image: url("IMG_20250928_110455_edit_1031302137663774.jpg");
+    background-size: cover;
+    font-family: "Brush Script MT", cursive;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@media (max-width: 1024px){
+    body{
+        background-image: url("CamScanner\ 2025-09-28\ 10.22.jpg");
+    }
+}
+@media (max-width: 768px){
+    body{
+        background-image: url("IMG_20250928_110455_edit_1031302137663774.jpg");
+    }
+}
+
+
+header{
+    font-family: "Brush Script MT", cursive;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+header ul li{
+    margin: 0 15px;
+    font-size: larger;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
